@@ -1,0 +1,88 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: burlywood;
+}
+.wrapper{
+  background-color:whitesmoke;
+  height:450px;
+  width:400px;
+  display:flexbox;
+  justify-content: center;
+  flex-flow: column;
+  margin: 30px auto;
+  padding:50px auto;
+  outline: 2px solid black;
+}
+.title{
+  background-color: floralwhite;
+  color:#d17600;
+  text-align:center;
+  height:17%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  outline: 2px solid #dda336;
+}
+.inputDiv{
+  height:10%;
+  margin: 10px auto;
+  padding:5px;
+  display:flex;
+  justify-content: center;
+}
+.inputBox{
+  width:80%;
+  background-color: wheat;
+  color:#352003;
+  font-size: 1.5rem;
+  border:2px solid #71644b;
+  border-radius: 5%;
+}
+.buttonDiv{
+  display:flex;
+  justify-content: center;
+}
+.searchBtn{
+  height:40px;
+  width:100px;
+  margin:5px auto;
+  background-color: #ffa600;
+  font-weight: bold;
+   
+  border-radius: 10%;
+}
+.displayDiv{
+  margin-top: 10px;
+  height: 49%;
+  display:flex;
+  justify-content:space-evenly;
+  flex-flow: column;
+  text-align:center;
+}
+#city{
+  background-color:floralwhite;
+  outline: 2px solid #8c7d7d;
+  height:20%;
+  margin-top: 25px;
+  padding-bottom: 15px;
+  color:#543b3b;
+  font-weight: bold;
+  
+}
+.displayText{
+  padding:0;
+  margin-top:2px;
+  height:25%;
+  display: flex;
+  justify-content:center;
+  background-color: palegoldenrod;
+  color:#270349;
+  font-size:0.8rem;
+}
+#minmax{
+  justify-content: space-evenly;
+}
